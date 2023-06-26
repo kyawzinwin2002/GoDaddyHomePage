@@ -1,0 +1,22 @@
+.modalOne {
+ position: absolute;
+ transform: translateY(0px);
+ display: none;
+}
+
+
+
+.appear {
+    position: absolute;
+    transform: translateY(20px);
+    display: block;
+    transition: all 0.6s;
+    
+}
+
+#blur{
+    filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+

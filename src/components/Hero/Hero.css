@@ -1,0 +1,27 @@
+.heroLeft{
+    background-image: url("./row-mrq-hp-test-4-landscape.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.heroBtn:hover{
+    transform: scaleX(1.03);    
+    transition: 0.5s;
+    
+}
+
+
+
+.heroBtn:hover .btnLogo{ 
+         
+    opacity: 0.95;
+    display: inline;
+        transition: 0.5s;
+ 
+    
+}
+.heroBtn:hover .btnLetter{
+    transform: translateX(-5%);
+       transition: 0.5s;   
+
+}
